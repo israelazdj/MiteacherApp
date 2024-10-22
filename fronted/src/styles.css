@@ -1,1 +1,61 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+
+
+
 /* You can add global styles to this file, and also import other style files */
+:root {
+	--white-color:                  #ffffff;     /* Blanco puro */
+ 	--primary-color:                #E63946;     /* Rojo intenso (Principal) */
+ 	--verde-claro:             		 #c1e0d3;     /* Verde suave (Secundario) */
+	--verde-hover:            		  #fafffc;     /* Verde suave (Secundario) */
+  	--Gris_claro:             		#ececec;     /* Gris claro (Fondo de sección) */
+  	--primary-bg-color:             #E63946;     /* Rojo intenso (Fondo principal) */
+  	--custom-btn-bg-color:          #9be5e7;     /* Azul claro (Botón personalizado) */
+  	--custom-btn-bg-hover-color:    #1D3557;     /* Azul oscuro (Hover en botón) */
+  	--heading-color:                #2e5c9cde;     /* Azul oscuro (Color de títulos) */
+  	--dark-color:                   #000000;     /* Negro puro (Texto oscuro) */
+  	--p-color:                      #717275;     /* Gris mediano (Color de párrafos) */
+  	--border-color:                 #e0e0e5;     /* Gris claro (Color de borde) */
+  	--link-hover-color:             #E63946;     /* Rojo intenso (Hover de enlaces) */
+  	--success-boton:                RGBA(25,135,84,var(--bs-bg-opacity,1)); /* Verde éxito (Botón de éxito) */
+}
+
+
+.verde-claro{
+	background-color: var(--verde-claro);
+}
+.mi-li li a{	
+	border-radius: 10px;
+	background-color: #fafffc00;
+}
+.mi-li li a:hover{	
+	font-weight: 600;
+	border-radius: 10px;
+	background-color: var(--verde-hover);
+}
+
+.mi-scroll{
+	scroll-behavior: smooth;
+  }
+.offcanvas:hover{
+	transform: translateX(0);
+}
+.back-top-icon{
+	background: var(--secondary-color);
+	width: 65px;
+	text-decoration: none;
+	color: black;
+	font-size: var(--h4-font-size);
+	/* 
+	top: 0;
+	bottom: 0;
+	right: 0; */
+  }
+  
+/* .wrapper{
+    width: 1600px;
+    margin:0 auto;
+    padding: 0;
+} */
